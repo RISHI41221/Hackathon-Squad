@@ -24,11 +24,8 @@ Technically, this is the **Maximum Weight Independent Set (MWIS)** problem on a 
 
 ## Constraints (Crucial)
 
-1 <= N <= 200,000
-0 <= M <= (N * (N - 1)) / 2
-1 <= Sᵢ <= 1,000,000,000
-1 <= u, v <= N
-All conflict pairs (u, v) are distinct.
+- $1 \le N \le 200{,}000$ coders
+- $0 \le M \le 200{,}000$ conflict edges
 - The graph is therefore **sparse**, which is a key structural constraint exploited by the solver
 - Execution time limit: **5 minutes**
 
