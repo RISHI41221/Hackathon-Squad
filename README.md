@@ -69,9 +69,9 @@ node --version
 
 If either command is not recognized, install the missing tool and restart PowerShell before continuing.
 
-## Complete Instructions (For a beginner)
+## Complete Instructions
 
-Assumption: your PowerShell terminal is already opened in the repository root, and you can see files such as `merged_solution.cpp`, `run_tests.js`, and the `test_suite` folder.
+Make sure your PowerShell terminal is already opened in the repository root, and you can see files such as `merged_solution.cpp`, `run_tests.js`, and the `test_suite` folder.
 
 ### Step 1: Compiling the Code
 
