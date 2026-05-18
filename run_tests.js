@@ -65,7 +65,7 @@ function solveWithBinary(inputText, instance) {
 function main() {
   const suiteDir = process.argv[2] || "C:\\Users\\RISHI\\Downloads\\test_suite\\test_suite";
   const files = fs.readdirSync(suiteDir)
-    .filter((name) => /^input_.*\.txt$/i.test(name))
+    .filter((name) => /^input.*\.txt$/i.test(name))
     .sort((a, b) => a.localeCompare(b));
 
   let passCount = 0;
